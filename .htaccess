@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule "dt" "index.php"
+
+RewriteRule "^([a-zA-Z0-9]+)$" "?quanly=$1"
+
+RewriteRule "^san-pham/([a-zA-Z0-9]+)$" "id=$1"

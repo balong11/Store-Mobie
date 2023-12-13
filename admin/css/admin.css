@@ -1,0 +1,65 @@
+.wrapper{
+    border: 1px solid#000;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../../images/baner 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid#df0000;
+    height: 180px;
+    width: 100%;
+  
+}
+.admin_list{
+    border: 1px solid#9c80ff;
+    height: 50px;
+    width: 100%;
+    background-color: #df0000;
+}
+ul.list_admin_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+ul.list_admin_list li:hover {
+    background: azure;
+}
+ul.list_admin_list li a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+ul.list_admin_list li {
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+h3.title_admin {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+ul.admin_list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+ul.admin_list li {
+    float: left;
+    margin: 5px;
+}
+.clear {
+    clear: both;
+}
+.footer{
+    border: 1px solid#ff1a5f;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(187, 233, 218);
+}
